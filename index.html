@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1779683c1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Speech to Text</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="heading">Speech to Text</p>
+      <div class="options">
+        <div class="anguage">
+          <p>Select Language</p>
+          <select name="input-language" id="language"></select>
+        </div>
+      </div>
+      <div class="line"></div>
+      <button class="btn record">
+        <div class="icon">
+          <!--ion-icon name="mic-outline"></ion-icon-->
+          <i name="mic-outline" class="fa-solid fa-microphone"></i>
+          <img src="bars.svg" alt="" />
+        </div>
+        <p>Start Listening</p>
+      </button>
+      <p class="heading">Transcript</p>
+      <div
+        class="result"
+        spellcheck="false"
+        placeholder="Text will be shown here"
+      >
+        <p class="interim"></p>
+      </div>
+      <button class="btn stop" id="stop">
+        <i class="fa-regular fa-circle-stop"></i>Stop
+      </button>
+      <div class="buttons">
+        <button class="btn clear">
+          <i class="fa-solid fa-trash-can"></i>
+          <p>Clear</p>
+        </button>
+        <button class="btn download" disabled>
+          <i class="fa-solid fa-cloud-arrow-down"></i>
+          <p>Download</p>
+        </button>
+      </div>
+    </div>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

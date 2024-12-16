@@ -1,0 +1,217 @@
+const languages = [
+  {
+    no: '11',
+    name: 'English',
+    native: 'English',
+    code: 'en',
+  },
+  {
+    no: '1',
+    name: 'Afrikaans',
+    native: 'Afrikaans',
+    code: 'af',
+  },
+
+  {
+    no: '2',
+    name: 'Arabic',
+    native: 'عربي',
+    code: 'ar',
+  },
+
+  {
+    no: '3',
+    name: 'Bulgarian',
+    native: 'Български',
+    code: 'bg',
+  },
+  {
+    no: '4',
+    name: 'Catalan',
+    native: 'Català',
+    code: 'ca',
+  },
+  {
+    no: '15',
+    name: 'Chinese (Simplified)',
+    native: '中文简体',
+    code: 'zh-CN',
+  },
+  {
+    no: '6',
+    name: 'Chinese (Traditional)',
+    native: '中文繁體',
+    code: 'zh-TW',
+  },
+  {
+    no: '7',
+    name: 'Croatian',
+    native: 'Hrvatski',
+    code: 'hr',
+  },
+  {
+    no: '8',
+    name: 'Czech',
+    native: 'Čeština',
+    code: 'cs',
+  },
+  {
+    no: '9',
+    name: 'Danish',
+    native: 'Dansk',
+    code: 'da',
+  },
+  {
+    no: '10',
+    name: 'Dutch',
+    native: 'Nederlands',
+    code: 'nl',
+  },
+
+  {
+    no: '12',
+    name: 'Filipino',
+    native: 'Filipino',
+    code: 'tl',
+  },
+
+  {
+    no: '13',
+    name: 'French',
+    native: 'Français',
+    code: 'fr',
+  },
+
+  {
+    no: '14',
+    name: 'German',
+    native: 'Deutsch',
+    code: 'de',
+  },
+  {
+    no: '15',
+    name: 'Greek',
+    native: 'Ελληνικά',
+    code: 'el',
+  },
+  {
+    no: '16',
+    name: 'Hebrew',
+    native: 'עברית',
+    code: 'iw',
+  },
+  {
+    no: '17',
+    name: 'Hindi',
+    native: 'हिन्दी',
+    code: 'hi',
+  },
+  {
+    no: '18',
+    name: 'Hungarian',
+    native: 'Magyar',
+    code: 'hu',
+  },
+  {
+    no: '19',
+    name: 'Irish',
+    native: 'Gaeilge',
+    code: 'ga',
+  },
+  {
+    no: '20',
+    name: 'Italian',
+    native: 'Italiano',
+    code: 'it',
+  },
+  {
+    no: '21',
+    name: 'Japanese',
+    native: '日本語',
+    code: 'ja',
+  },
+  {
+    no: '22',
+    name: 'Korean',
+    native: '한국어',
+    code: 'ko',
+  },
+  {
+    no: '23',
+    name: 'Norwegian',
+    native: 'Norsk',
+    code: 'no',
+  },
+  {
+    no: '24',
+    name: 'Portuguese',
+    native: 'Português',
+    code: 'pt',
+  },
+  {
+    no: '25',
+    name: 'Romanian',
+    native: 'Română',
+    code: 'ro',
+  },
+  {
+    no: '26',
+    name: 'Russian',
+    native: 'Русский',
+    code: 'ru',
+  },
+  {
+    no: '27',
+    name: 'Slovenian',
+    native: 'Slovensko',
+    code: 'sl',
+  },
+  {
+    no: '28',
+    name: 'Spanish',
+    native: 'Español',
+    code: 'es',
+  },
+  {
+    no: '29',
+    name: 'Swahili',
+    native: 'Kiswahili',
+    code: 'sw',
+  },
+  {
+    no: '30',
+    name: 'Swedish',
+    native: 'Svenska',
+    code: 'sv',
+  },
+  {
+    no: '31',
+    name: 'Thai',
+    native: 'ไทย',
+    code: 'th',
+  },
+  {
+    no: '32',
+    name: 'Turkish',
+    native: 'Türkçe',
+    code: 'tr',
+  },
+  {
+    no: '33',
+    name: 'Ukrainian',
+    native: 'Українська',
+    code: 'uk',
+  },
+  {
+    no: '34',
+    name: 'Vietnamese',
+    native: 'Tiếng Việt',
+    code: 'vi',
+  },
+  {
+    no: '35',
+    name: 'Welsh',
+    native: 'Cymraeg',
+    code: 'cy',
+  },
+];
